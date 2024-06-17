@@ -16,7 +16,8 @@ const createBoxes = (amount) => {
 				"beforeend",
 				`<div style="width:${Math.floor(30 + 10 * i)}px; 
         height: ${Math.floor(30 + 10 * i)}px; 
-        background-color:${getRandomHexColor()};"></div>`
+        background-color:${getRandomHexColor()};
+        margin-top: 1em"></div>`
 			);
 		}
 	} else {
